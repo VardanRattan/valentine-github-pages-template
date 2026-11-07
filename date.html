@@ -11,8 +11,8 @@
   <body>
     <main class="wrap">
       <section class="card" style="padding:18px 16px 18px;">
-        <div class="title">Okay <span class="pink" id="nick">Babe</span>… pick our online date 💘</div>
-        <p class="subtitle">Pick one vibe. Then (optional) choose the day.</p>
+        <div class="title">Okay <span class="pink" id="nick">Baby</span>… pick our late night talk 💘</div>
+        <p class="subtitle">Just one vibe. Then (optional) choose the night.</p>
 
         <div class="grid" id="choices"></div>
 
@@ -21,20 +21,20 @@
         </div>
 
         <div style="margin-top:14px; text-align:left;">
-          <div style="font-size:12px; color:rgba(47,34,34,.62); margin:0 0 6px 6px;">Day (optional)</div>
+          <div style="font-size:12px; color:rgba(47,34,34,.62); margin:0 0 6px 6px;">Night (optional)</div>
           <input id="day" type="date" style="width:100%; padding:14px 12px; border-radius:18px; border:1px solid rgba(255,95,158,.22); background:rgba(255,255,255,.78); font-size:16px;" />
         </div>
 
         <div style="margin-top:14px;">
           <button class="btn btnPrimary btnFull" id="continueBtn" disabled>Continue 💌</button>
-          <div class="tip" style="margin-top:10px;">No day chosen = “whenever you’re free” 😄</div>
+          <div class="tip" style="margin-top:10px;">No night chosen = “whenever you’re free” 😄</div>
         </div>
       </section>
     </main>
 
     <script>
       const cfg = window.VALENTINE_CONFIG || {};
-      document.getElementById('nick').textContent = cfg.nickname || 'Babe';
+      document.getElementById('nick').textContent = cfg.nickname || 'Baby';
 
       const cardsWrap = document.getElementById('choices');
       const options = Array.isArray(cfg.dateOptions) && cfg.dateOptions.length ? cfg.dateOptions : [];
@@ -77,7 +77,7 @@
         localStorage.setItem('online_choice', choice);
         localStorage.setItem('online_note', note);
         localStorage.setItem('online_when', whenDay);
-        location.href = 'food.html';
+        location.href = 'lastpage.html';
       });
     </script>
   </body>

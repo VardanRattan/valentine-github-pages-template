@@ -1,77 +1,33 @@
 window.VALENTINE_CONFIG = {
-  "partnerName": "Your Special Someone",
-  "nickname": "Babe",
+  "partnerName": "My love Maithi",
+  "nickname": "Baby",
   "dateOptions": [
     {
-      "title": "Movie Night",
-      "emoji": "🎬",
-      "subtitle": "Same movie • video call",
-      "note": "We pick a movie + call"
-    },
-    {
-      "title": "Game Night",
-      "emoji": "🎮",
-      "subtitle": "Play together",
-      "note": "You choose the game"
+      "title": "Late Night Talk",
+      "emoji": "🌙",
+      "subtitle": "Just you and me",
+      "note": "Late night whispers, no distractions"
     },
     {
       "title": "Late Night Talk",
-      "emoji": "☎️",
-      "subtitle": "Just you and me",
-      "note": "No distractions"
+      "emoji": "🌙",
+      "subtitle": "Texting under the stars",
+      "note": "Sweet goodnight messages till late"
     },
     {
-      "title": "Video Call + Food",
-      "emoji": "🍱",
-      "subtitle": "Eat together on call",
-      "note": "Same vibe"
+      "title": "Late Night Talk",
+      "emoji": "🌙",
+      "subtitle": "Whisper calls",
+      "note": "Late night voice notes & secrets"
+    },
+    {
+      "title": "Late Night Talk",
+      "emoji": "🌙",
+      "subtitle": "Stargazing texts",
+      "note": "Shooting stars and soft nothings"
     }
   ],
-  "foodOptions": [
-    {
-      "title": "Sushi",
-      "emoji": "🍣",
-      "subtitle": "A classic"
-    },
-    {
-      "title": "Pizza",
-      "emoji": "🍕",
-      "subtitle": "Easy win"
-    },
-    {
-      "title": "Burgers",
-      "emoji": "🍔",
-      "subtitle": "Comfort"
-    },
-    {
-      "title": "Ramen",
-      "emoji": "🍜",
-      "subtitle": "Warm vibes"
-    }
-  ],
-  "dessertOptions": [
-    {
-      "title": "Ice Cream",
-      "emoji": "🍦",
-      "subtitle": "Always works"
-    },
-    {
-      "title": "Chocolate",
-      "emoji": "🍫",
-      "subtitle": "Romantic"
-    },
-    {
-      "title": "Waffles",
-      "emoji": "🧇",
-      "subtitle": "Crispy + sweet"
-    },
-    {
-      "title": "Cake",
-      "emoji": "🎂",
-      "subtitle": "Celebration"
-    }
-  ],
-  "finalButtonText": "Thank you for being my Valentine 💗",
+  "finalButtonText": "See this again? 💘",
   "shareButtonText": "Copy our plan 💌 (send it to me)",
   "shareCopiedText": "Copied ✅ Now paste it to me 💌",
   "shareMessageFooter": "Now you have to show up 😌"

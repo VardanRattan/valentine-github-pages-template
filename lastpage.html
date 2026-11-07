@@ -44,11 +44,9 @@
 
         <section class="recap">
           <h2>Our plan ✨</h2>
-          <div class="line"><div class="label">Online date</div><div class="val" id="r1">—</div></div>
+          <div class="line"><div class="label">Late night talk</div><div class="val" id="r1">—</div></div>
           <div class="line"><div class="label">Day</div><div class="val" id="r2">—</div></div>
-          <div class="line"><div class="label">Food</div><div class="val" id="r3">—</div></div>
-          <div class="line"><div class="label">Dessert</div><div class="val" id="r4">—</div></div>
-          <div class="loveNote">Tip: tap “Copy our plan” and send it to the person who made this 💖</div>
+          <div class="loveNote">Tip: tap “Copy our plan” and send it to me 💖</div>
         </section>
 
         <div style="margin-top:16px;">
@@ -56,7 +54,7 @@
         </div>
 
         <div style="margin-top:10px;">
-          <button class="btn btnGhost btnFull" id="finalBtn" onclick="location.href='index.html'">Thank you for being my Valentine 💗</button>
+          <button class="btn btnGhost btnFull" id="finalBtn" onclick="location.href='index.html'">See this again? 💘</button>
         </div>
       </section>
     </main>
@@ -66,13 +64,9 @@
 
       const online = localStorage.getItem('online_choice') || '—';
       const when = localStorage.getItem('online_when') || 'Any day';
-      const food = localStorage.getItem('food_choice') || '—';
-      const dessert = localStorage.getItem('dessert_choice') || localStorage.getItem('dessertChoice') || '—';
 
       document.getElementById('r1').textContent = online;
       document.getElementById('r2').textContent = when;
-      document.getElementById('r3').textContent = food;
-      document.getElementById('r4').textContent = dessert;
 
       const shareBtn = document.getElementById('shareBtn');
       const finalBtn = document.getElementById('finalBtn');
@@ -82,11 +76,9 @@
 
       shareBtn.addEventListener('click', async () => {
         const msg =
-`Valentine plan 💖
-Online date: ${online}
+`My late night plan 💖
+Late night talk: ${online}
 Day: ${when}
-Food: ${food}
-Dessert: ${dessert}
 
 ${cfg.shareMessageFooter || ''}`.trim();
 
